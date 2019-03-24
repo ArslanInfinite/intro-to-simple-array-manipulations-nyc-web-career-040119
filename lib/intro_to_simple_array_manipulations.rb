@@ -27,5 +27,27 @@ def using_concat(my_favorite_things, more_favs)
 end
 
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
-  list_of_esoteric_programming_languages.insert[4]
+  list_of_esoteric_programming_languages.insert(another_esoteric_language)
 end
+
+def using_uniq(captain_planet_and_the_planeteers)
+  captain_planet_and_the_planeteers.uniq
+end
+
+describe "#using_uniq" do 
+  it "takes in an argument of an array and uses the uniq method to remove any duplicate items" do
+    captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
+    new_array = using_uniq(captain_planet_and_the_planeteers)
+    expect(new_array).to eq(["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler"])
+  end
+end
+
+
+
+
+
+
+
+
+
+
