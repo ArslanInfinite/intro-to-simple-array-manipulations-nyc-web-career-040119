@@ -9,5 +9,3 @@ end
 def using_pop(great_hits_of_the_nineties, deleted_string)
   great_hits_of_the_nineties.pop deleted_string
 end
-
-great_hits_of_the_nineties
