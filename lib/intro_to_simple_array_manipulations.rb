@@ -25,3 +25,7 @@ end
 def using_concat(my_favorite_things, more_favs)
   my_favorite_things << more_favs.each {|i| my_favorite_things << i }
 end
+
+def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
+  list_of_esoteric_programming_languages.insert(another_esoteric_language)
+end
