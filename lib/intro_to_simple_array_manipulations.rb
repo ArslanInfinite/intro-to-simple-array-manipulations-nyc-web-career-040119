@@ -13,4 +13,3 @@ end
 def pop_with_args(chars_in_game_of_thrones, chars_arya_killed)
   chars_arya_killed.pop(2)
 end
-
