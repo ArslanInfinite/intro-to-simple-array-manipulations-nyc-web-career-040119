@@ -11,5 +11,6 @@ def using_pop(great_hits_of_the_nineties)
 end
 
 def pop_with_args(chars_in_game_of_thrones)
-  chars_in_game_of_thrones.pop
+  chars_in_game_of_thrones.pop chars_arya_killed(2)
 end
+
