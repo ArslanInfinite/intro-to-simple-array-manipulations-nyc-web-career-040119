@@ -15,7 +15,5 @@ def pop_with_args(chars_in_game_of_thrones)
 end
 
 def using_shift(arry)
-  arry.shift 
+  arry.shift
 end
-
-
